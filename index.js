@@ -70,7 +70,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['923096287432', '923154647639']
+  const ownerNumber = ['224628863629', '224628863629']
 
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -93,7 +93,7 @@ const {
   
 //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/auth_info_baileys/creds.json')) {
-if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
+if(!config.SESSION_ID) return console.log(' DARK-SILENCE-MD~vMgjkIIS#shfEBIMtiobHwHxgTRcyLhzjEl4ZhNru02024l_7kJs ')
 const sessdata = config.SESSION_ID.replace("DARK-SILENCE-MD~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
